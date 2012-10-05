@@ -31,6 +31,6 @@
 /**
  * Define name and tooltip for preferences (inactive modules)
  */
-$GLOBALS['TL_LANG']['MOD']['BackendFloatingFooter'] = array('Backend schwebender Footer', 'Lässt den Footer im Backend im oberen rechten Bereich schweben um ihn schneller zu erreichen.');
+$GLOBALS['TL_LANG']['MOD']['BackendFloatingFooter'] = array('Schwebender Footer im Backend', 'LÃ¤sst den Footer im Backend im oberen rechten Bereich schweben um ihn schneller zu erreichen.');
 
 ?>
