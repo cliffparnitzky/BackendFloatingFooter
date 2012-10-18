@@ -30,6 +30,6 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'] = array('Schwebenden Footer verwenden', 'Geben Sie an, ob Sie den schwebenden Footer im Backend verwenden wollen.');
+$GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'] = array('Schwebenden Footer verwenden', 'Geben Sie an, ob der schwebende Footer im Backend verwendet werden soll.');
 
 ?>
