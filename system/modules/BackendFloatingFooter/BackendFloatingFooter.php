@@ -27,11 +27,23 @@
  * @license    LGPL
  */
 
-if (TL_MODE == 'BE')
-{
-	$GLOBALS['TL_CSS'][] = 'system/modules/BackendFloatingFooter/html/footer.css';
-	$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/BackendFloatingFooter/html/footer.js';
-	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedCss');
+/**
+ * Class BackendFloatingFooter
+ *
+ * Adds misc functions.
+ * @copyright  Cliff Parnitzky 2012
+ * @author     Cliff Parnitzky
+ */
+class BackendFloatingFooter {
+	/**
+	 * Adds some translated css definition.
+	 */
+	public function addTranslatedCss($strContent, $strTemplate) {
+		if ($strTemplate == 'be_main') {
+			$strContent .= '<style type="text/css">.tl_submit_container:before {content: "' . $GLOBALS['TL_LANG']['MSC']['BackendFloatingFooterTitle'] . '";}</style>';
+		}
+		return $strContent;
+	}
 }
- 
+
 ?>

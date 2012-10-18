@@ -27,11 +27,9 @@
  * @license    LGPL
  */
 
-if (TL_MODE == 'BE')
-{
-	$GLOBALS['TL_CSS'][] = 'system/modules/BackendFloatingFooter/html/footer.css';
-	$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/BackendFloatingFooter/html/footer.js';
-	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedCss');
-}
- 
+/**
+ * defaults
+ */
+$GLOBALS['TL_LANG']['MSC']['BackendFloatingFooterTitle'] = 'Actions';
+
 ?>
