@@ -27,10 +27,9 @@
  * @license    LGPL
  */
 
-if(TL_MODE == 'BE')
-{
-	$GLOBALS['TL_HOOKS']['loadLanguageFile'][] = array('BackendFloatingFooter', 'addStaticConfiguration');
-	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedConfiguration');
-}
- 
+/**
+ * Fields
+ */
+$GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'] = array('Schwebenden Footer verwenden', 'Geben Sie an, ob Sie den schwebenden Footer im Backend verwenden wollen.');
+
 ?>

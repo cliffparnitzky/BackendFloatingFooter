@@ -27,10 +27,9 @@
  * @license    LGPL
  */
 
-if(TL_MODE == 'BE')
-{
-	$GLOBALS['TL_HOOKS']['loadLanguageFile'][] = array('BackendFloatingFooter', 'addStaticConfiguration');
-	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedConfiguration');
-}
- 
+/**
+ * Fields
+ */
+$GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'] = array('Use floating footer', 'Select if you want to use the floating footer in the backend.');
+
 ?>
