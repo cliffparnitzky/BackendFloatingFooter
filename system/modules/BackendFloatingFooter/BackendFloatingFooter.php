@@ -61,8 +61,8 @@ class BackendFloatingFooter extends Backend {
 	* Adds translated css and javascript for the footer
 	*/
 	public function addTranslatedConfiguration($strContent, $strTemplate) {
-		if ($this->User->useBackendFloatingFooter) {
-			$strContent .= '<style type="text/css">.tl_submit_container:before {content: "' . $GLOBALS['TL_LANG']['MSC']['BackendFloatingFooterTitle'] . '";}</style>';
+		if ($strTemplate == 'be_main' && $this->User->useBackendFloatingFooter) {
+			return preg_replace('/<\/head>/', "<style type=\"text/css\">.tl_submit_container:before {content: \"" . $GLOBALS['TL_LANG']['MSC']['BackendFloatingFooterTitle'] . "\";}</style>\n$0", $strContent, 1);
 		}
 		return $strContent;
 	}
