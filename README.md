@@ -20,7 +20,7 @@ https://github.com/cliffparnitzky/BackendFloatingFooter/issues
 Compatibility
 -------------
 
-- min. version: Conato 2.9.5
+- min. version: Contao 2.9.5
 - max. version: Contao 2.11.6
 
 
