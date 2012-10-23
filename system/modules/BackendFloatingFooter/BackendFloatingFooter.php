@@ -51,6 +51,9 @@ class BackendFloatingFooter extends Backend {
 		if ($this->User->useBackendFloatingFooter) {
 			$GLOBALS['TL_CSS'][] = 'system/modules/BackendFloatingFooter/html/footer.css';
 			$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/BackendFloatingFooter/html/footer.js';
+			
+			// make sure the hook is only executed once
+			unset($GLOBALS['TL_HOOKS']['loadLanguageFile']['BackendFloatingFooterHook']);
 		}
 	}
 	

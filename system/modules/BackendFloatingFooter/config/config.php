@@ -29,7 +29,7 @@
 
 if(TL_MODE == 'BE')
 {
-	$GLOBALS['TL_HOOKS']['loadLanguageFile'][] = array('BackendFloatingFooter', 'addStaticConfiguration');
+	$GLOBALS['TL_HOOKS']['loadLanguageFile']['BackendFloatingFooterHook'] = array('BackendFloatingFooter', 'addStaticConfiguration');
 	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedConfiguration');
 }
  
