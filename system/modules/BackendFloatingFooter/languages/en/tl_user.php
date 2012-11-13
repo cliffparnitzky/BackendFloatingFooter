@@ -32,4 +32,9 @@
  */
 $GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'] = array('Use floating footer', 'Select if you want to use the floating footer in the backend.');
 
+/**
+ * Legends
+ */
+$GLOBALS['TL_LANG']['tl_user']['backend-extended_legend'] = 'Back end settings (extended)';
+
 ?>
