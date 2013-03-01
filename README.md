@@ -1,5 +1,5 @@
-Contao BackendFloatingFooter Extension
-======================================
+Contao Extension: BackendFloatingFooter
+=======================================
 
 Provides a special floating footer for contao backend.
 
@@ -21,7 +21,7 @@ Compatibility
 -------------
 
 - min. version: Contao 2.9.5
-- max. version: Contao 2.11.6
+- max. version: Contao 3.0.x
 
 
 Dependency
