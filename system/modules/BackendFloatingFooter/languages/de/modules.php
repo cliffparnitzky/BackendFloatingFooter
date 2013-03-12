@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Copyright (C) 2005-2013 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,7 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2012
+ * @copyright  Cliff Parnitzky 2012-2013
  * @author     Cliff Parnitzky
  * @package    BackendFloatingFooter
  * @license    LGPL
@@ -30,6 +30,6 @@
 /**
  * Define name and tooltip for preferences (inactive modules)
  */
-$GLOBALS['TL_LANG']['MOD']['BackendFloatingFooter'] = array('Backend schwebender Footer', 'LÃ¤sst den Footer im Backend im oberen rechten Bereich schweben um ihn schneller zu erreichen.');
+$GLOBALS['TL_LANG']['MOD']['BackendFloatingFooter'] = array('Backend schwebender Footer', 'Lässt den Footer im Backend im oberen rechten Bereich schweben um ihn schneller zu erreichen.');
 
 ?>

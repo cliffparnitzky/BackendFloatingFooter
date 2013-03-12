@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Copyright (C) 2005-2013 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,16 +21,16 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2012
+ * @copyright  Cliff Parnitzky 2012-2013
  * @author     Cliff Parnitzky
  * @package    BackendFloatingFooter
  * @license    LGPL
  */
 
-if(TL_MODE == 'BE')
+if (TL_MODE == 'BE')
 {
 	$GLOBALS['TL_HOOKS']['loadLanguageFile']['BackendFloatingFooterHook'] = array('BackendFloatingFooter', 'addStaticConfiguration');
 	$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('BackendFloatingFooter', 'addTranslatedConfiguration');
 }
- 
+
 ?>
