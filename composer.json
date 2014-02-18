@@ -22,7 +22,7 @@
 		"contao-community-alliance/composer-installer":"*"
 	},
 	"replace": {
-		"contao-legacy/backendfloatingfooter ": "*"
+		"contao-legacy/backendfloatingfooter": "*"
 	},
 	"extra":{
 		"contao":{
