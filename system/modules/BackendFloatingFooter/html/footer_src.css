@@ -4,9 +4,10 @@
 	right: 10px;
 	top: 200px;
 	cursor: move;
+	z-index: 16000;
 }
 
-.tl_submit_container:before {
+.tl_formbody_submit .tl_submit_container:before {
 	float: left;
 	margin-bottom: 5px;
 	font-size: 12px;
@@ -14,7 +15,7 @@
 	color: #ffffff;
 }
 
-.tl_submit_container {
+.tl_formbody_submit .tl_submit_container {
 	background: url("move.png") top right no-repeat #B3B6B3;
 	float: left;
 	border: 0px;
@@ -23,8 +24,15 @@
 	min-width: 90px;
 }
 
-.tl_submit_container input, .tl_submit_container button {
+.tl_formbody_submit .tl_submit_container .tl_form,
+.tl_formbody_submit  .tl_submit_container input,
+.tl_formbody_submit  .tl_submit_container button {
 	width: 100%;
 	float: left;
 	clear: left;
+}
+
+.tl_formbody_submit .tl_submit_container .tl_form .tl_text {
+	width: 96%;
+	float: none;
 }

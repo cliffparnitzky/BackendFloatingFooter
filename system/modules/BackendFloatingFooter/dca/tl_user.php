@@ -68,7 +68,7 @@ $GLOBALS['TL_DCA']['tl_user']['fields']['useBackendFloatingFooter'] = array
 (
 	'label'     => &$GLOBALS['TL_LANG']['tl_user']['useBackendFloatingFooter'],
 	'inputType' => 'checkbox',
-	'eval'      => array('submitOnChange'=>true, 'tl_class'=>'w50')
+	'eval'      => array('tl_class'=>'w50')
 );
 
 ?>
