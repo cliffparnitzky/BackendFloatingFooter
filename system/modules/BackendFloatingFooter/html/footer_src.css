@@ -4,7 +4,6 @@
 	right: 10px;
 	top: 200px;
 	cursor: move;
-	z-index: 16000;
 }
 
 .tl_formbody_submit .tl_submit_container:before {
